@@ -14,7 +14,7 @@ function main() {
 
     function resettimer() {
         clearTimeout(t);
-        t = setTimeout(closetab, 1000);
+        t = setTimeout(closetab, 180000);
     }
 }
 
